@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base Background -->
+    <item>
+        <shape>
+            <solid android:color="@color/bg_dark" />
+        </shape>
+    </item>
+
+    <!-- Bottom Purple Radial Accent -->
+    <item android:bottom="-150dp" android:left="-100dp" android:right="-100dp">
+        <shape>
+            <gradient
+                android:centerX="0.5"
+                android:centerY="1.0"
+                android:gradientRadius="500dp"
+                android:startColor="#228A2BE2"
+                android:endColor="#00000000"
+                android:type="radial" />
+        </shape>
+    </item>
+
+    <!-- Top Cyan Radial Accent -->
+    <item android:top="-120dp" android:right="-120dp">
+        <shape>
+            <gradient
+                android:centerX="1.0"
+                android:centerY="0.1"
+                android:gradientRadius="400dp"
+                android:startColor="#2200D2FF"
+                android:endColor="#00000000"
+                android:type="radial" />
+        </shape>
+    </item>
+
+    <!-- Top Left Blue Radial Accent -->
+    <item android:top="-150dp" android:left="-150dp">
+        <shape>
+            <gradient
+                android:centerX="0.0"
+                android:centerY="0.0"
+                android:gradientRadius="500dp"
+                android:startColor="#1A0066FF"
+                android:endColor="#00000000"
+                android:type="radial" />
+        </shape>
+    </item>
+</layer-list>

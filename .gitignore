@@ -1,0 +1,41 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Android build files
+app/build/
+build/
+
+# Firebase configuration - review before publishing
+google-services.json
+
+# Local secrets
+secrets.properties
+.env
+
+# Android Studio local files
+.idea/
+.artifacts/
+
+# Generated build output
+app/build/
+build/
+
+# Firebase configuration
+google-services.json
+
+# Local secrets
+secrets.properties
+.env

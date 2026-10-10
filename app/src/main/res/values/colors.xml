@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Theme Colors - Default Light Mode -->
+    <color name="bg_dark">#F4F6FC</color>
+    <color name="bg_card">#FFFFFF</color>
+    <color name="bg_card_stroke">#CBD5E1</color>
+    <color name="input_bg">#EDF2F7</color>
+    <color name="input_stroke">#CBD5E1</color>
+    <color name="input_stroke_focused">#0070F3</color>
+
+    <color name="accent_cyan">#0070F3</color>
+    <color name="accent_blue">#0055FF</color>
+    <color name="accent_purple">#7C3AED</color>
+    <color name="accent_magenta">#D946EF</color>
+
+    <color name="text_white">#0F172A</color>
+    <color name="text_gray">#475569</color>
+    <color name="text_muted">#64748B</color>
+
+    <color name="tab_bg">#E2E8F0</color>
+    <color name="tab_active_bg">#0070F3</color>
+    <color name="tab_active_stroke">#0055FF</color>
+    <color name="tab_unselected_text">#64748B</color>
+    <color name="cyan_glow">#200070F3</color>
+</resources>

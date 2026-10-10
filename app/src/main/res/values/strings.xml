@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Aisignnova</string>
+    <string name="logo_desc">SignNova Logo</string>
+    <string name="tagline">Bridging Hands, Building Understanding</string>
+    <string name="splash_bottom">A More Inclusive Tomorrow</string>
+
+    <!-- Auth -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="login_action_btn">Login →</string>
+    <string name="create_account_btn">Create Account →</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="or_divider">OR</string>
+    <string name="continue_google">Continue with Google</string>
+    <string name="no_account">Don\'t have an account? </string>
+    <string name="already_account">Already have an account? </string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+
+    <!-- Home -->
+    <string name="welcome_to">Welcome to</string>
+    <string name="home_subtitle">Real-time Indian Sign Language Translation</string>
+    <string name="btn_start_translating">START TRANSLATING →</string>
+    <string name="home_quote">Different Hands\nSame World</string>
+
+    <string name="card_profile">PROFILE</string>
+    <string name="card_profile_sub">View your account</string>
+    <string name="card_history">HISTORY</string>
+    <string name="card_history_sub">View past detections</string>
+    <string name="card_learn">LEARN SIGNS</string>
+    <string name="card_learn_sub">Explore common signs</string>
+    <string name="card_settings">SETTINGS</string>
+    <string name="card_settings_sub">Customize app</string>
+
+    <!-- Camera / Live Translator -->
+    <string name="live_translator">Live Translator</string>
+    <string name="camera_active">● Camera Active</string>
+    <string name="live_detection">LIVE DETECTION</string>
+    <string name="text_output">TEXT OUTPUT</string>
+    <string name="waiting_for_signs">Waiting for signs...</string>
+    <string name="voice_on">🔊 Voice On</string>
+    <string name="voice_off">🔇 Voice Off</string>
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
+    <string name="clear">CLEAR</string>
+
+    <!-- Legacy OTP (Unused) -->
+    <string name="verify_mobile">Verify Mobile Number</string>
+    <string name="otp_sent_msg">Verification code</string>
+    <string name="verify_otp">VERIFY OTP</string>
+    <string name="no_otp">Didn\'t receive OTP? </string>
+    <string name="resend_otp">RESEND OTP</string>
+
+    <!-- Error Messages -->
+    <string name="error_fill_all">Please fill all fields</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_short_password">Password must be at least 6 characters</string>
+</resources>
