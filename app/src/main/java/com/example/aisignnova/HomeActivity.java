@@ -44,6 +44,15 @@ public class HomeActivity extends AppCompatActivity {
             });
         }
 
+        View bottomNavRow = findViewById(R.id.bottomNavIconsRow);
+        if (bottomNavRow != null) {
+            ViewCompat.setOnApplyWindowInsetsListener(bottomNavRow, (v, insets) -> {
+                Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
+                v.setPadding(v.getPaddingLeft(), v.getPaddingTop(), v.getPaddingRight(), systemBars.bottom + 16);
+                return insets;
+            });
+        }
+
         drawerLayout = findViewById(R.id.drawerLayout);
         navigationView = findViewById(R.id.navigationView);
 
@@ -108,7 +117,7 @@ public class HomeActivity extends AppCompatActivity {
         menu.add(0, 1, 0, "Home").setIcon(R.drawable.signnova_logo);
         menu.add(0, 2, 1, "Profile").setIcon(R.drawable.ic_person);
         menu.add(0, 3, 2, "History").setIcon(R.drawable.ic_history);
-        menu.add(0, 4, 3, "Learn Signs").setIcon(R.drawable.ic_learn);
+        menu.add(0, 4, 3, "Learn Signs").setIcon(R.drawable.ic_learn_signs);
         menu.add(0, 5, 4, "Settings").setIcon(R.drawable.ic_settings);
         menu.add(0, 6, 5, "Help & Support").setIcon(R.drawable.ic_email);
         menu.add(0, 7, 6, "Logout").setIcon(R.drawable.ic_logout);

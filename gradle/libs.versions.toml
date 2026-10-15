@@ -11,7 +11,7 @@ firebaseBom = "33.9.0"
 camerax = "1.4.1"
 tensorflowLite = "2.14.0"
 tensorflowLiteSupport = "0.4.4"
-mediapipe = "0.10.14"
+mediapipe = "0.10.26"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }

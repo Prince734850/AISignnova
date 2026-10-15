@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Aisignnova</string>
+    <string name="splash_title">SIGNNOVA</string>
     <string name="logo_desc">SignNova Logo</string>
     <string name="tagline">Bridging Hands, Building Understanding</string>
     <string name="splash_bottom">A More Inclusive Tomorrow</string>
@@ -20,6 +21,8 @@
     <string name="confirm_password_hint">Confirm Password</string>
 
     <!-- Home -->
+    <string name="signnova_header">SIGNNOVA</string>
+    <string name="home_central_title">SIGNNOVA</string>
     <string name="welcome_to">Welcome to</string>
     <string name="home_subtitle">Real-time Indian Sign Language Translation</string>
     <string name="btn_start_translating">START TRANSLATING →</string>
@@ -31,6 +34,7 @@
     <string name="card_history_sub">View past detections</string>
     <string name="card_learn">LEARN SIGNS</string>
     <string name="card_learn_sub">Explore common signs</string>
+    <string name="namaste">Namaste</string>
     <string name="card_settings">SETTINGS</string>
     <string name="card_settings_sub">Customize app</string>
 
